@@ -1,0 +1,503 @@
+
+<meta name="google-site-verification" content="hCJjqqw7vz_GeEWm9Xc_zO30EXP6R838aEICN4wz7zo" />
+<!DOCTYPE html>
+<html  lang="undefined">
+<head>
+  <!-- Site made with Mobirise Website Builder v5.3.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Class 11 IP Ch4: Working with Lists and Dictionaries</title>
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu menu2 cid-stsu9HvMeK" once="menu" id="menu2-64">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://mobiri.se">
+                        <img src="assets/images/logo.png" alt="Mobirise" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">Glittery</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#top">
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#features8-2b">
+                            Classes</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#features1-1x">
+                            About&nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#design-block-Z83igMup05">Contacts</a>
+                    </li></ul>
+                
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="content10 cid-stsu9JjwrU" id="content10-65">
+    
+    <div class="container container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md">
+                <h5 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>Chapter 4: Working with Lists and Dictionaries</strong></h5>
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-4">
+                <div>
+                  <h3>NCERT solutions Working with Lists and Dictionaries</h3></div><div><h3><br></h3></div><div><div>
+
+      <p>1. What will be the output of the following statements?</p></div></div><div><div><p>a) list1 = [12,32,65,26,80,10]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;list1.sort()
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(list1)</p><div class="background"><div class="transbox">
+    <p>Ans.: [10,12,26,32,65,80]</p> </div> </div> 
+<br>b) list1 = [12,32,65,26,80,10]
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;sorted(list1)
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;print(list1)<br><div class="background"><div class="transbox"><p>Ans.: [12,32,65,26,80,10]</p> </div> </div> <br>
+c)&nbsp; list1 = [1,2,3,4,5,6,7,8,9,10]
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;list1[::-2]
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;list1[:3] + list1[3:]</div><div><div class="background"><div class="transbox"><p>
+Ans.:</p><p>[10,8,6,4,2]
+</p><p>[1,2,3,4,5,6,7,8,9,10]</p> </div> </div> <br>d) d) list1 = [1,2,3,4,5]
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;list1[len(list1)-1]</div><div><div class="background"><div class="transbox"><p>Ans.: 5</p> </div> </div> <br>
+
+<!-- Que 2 -->
+      <p>2. Consider the following list myList. What will be
+&nbsp;<span style="font-size: 1.1rem;">the elements of myList after each of the following
+&nbsp;</span><span style="font-size: 1.1rem;">operations?&nbsp;</span></p><p>&nbsp;myList = [10,20,30,40]</p></div></div><div><p>
+      a) myList.append([50,60])
+              </p><div class="background"><div class="transbox">
+    <p>The output will be: [10,20,30,40,[50,60]]</p> </div> </div> 
+<br>
+
+b) myList.extend([80,90])
+         <div class="background"><div class="transbox"><p>
+    The output will be: [10,20,30,40,[50,60],80,90]</p></div></div></div><div><div><br><br>
+
+
+<!-- Que 3-->
+      <p> 3. What will be the output of the following code segment?
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;myList = [1,2,3,4,5,6,7,8,9,10]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;for i in range(0,len(myList)):
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if i%2 == 0:
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(myList[i])</p></div></div><div><div class="background"><div class="transbox">
+    <p>The output will be:<span style="font-size: 1.1rem;">&nbsp;
+</span></p><p><span style="font-size: 1.1rem;">1
+</span></p><p><span style="font-size: 1.1rem;">3
+</span></p><p><span style="font-size: 1.1rem;">5
+</span></p><p><span style="font-size: 1.1rem;">7
+</span></p><p><span style="font-size: 1.1rem;">9</span></p></div></div></div></h6></div><br><br>
+
+            
+            <div class="col-md-12 col-lg-3">
+                <p class="mbr-text mbr-fonts-style display-4">M<strong>obirise W</strong>ebs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+
+                 <p class="mbr-text mbr-fonts-style display-4">Mobirise Webs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+            </div>
+        
+    
+</div></div></section>
+
+<section class="content10 cid-stsu9KhJsH" id="content10-66">
+    
+    <div class="container container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md">
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-4">
+                
+<div><div>
+<!-- Que 1 -->
+      <p> 4. What will be the output of the following code segment?</p>
+
+<p> a) myList = [1,2,3,4,5,6,7,8,9,10]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;del myList[3:]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(myList)</p>
+<div class="background"><div class="transbox"><p>The output will be [1,2,3]</p> </div> </div> <br>
+
+<p>b) myList = [1,2,3,4,5,6,7,8,9,10]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;del myList[:5]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(myList)</p>
+<div class="background"><div class="transbox"><p>The output will be [6,7,8,9,10]</p> </div> </div> <br>
+
+<p>c) myList = [1,2,3,4,5,6,7,8,9,10]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;del myList[::2]
+</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(myList)</p>
+<div class="background"><div class="transbox"><p>The output will be [2,4,6,8,10]</p></div></div>
+
+          </div>
+    </div></h6>
+            </div>
+            
+            <div class="col-md-12 col-lg-3">
+                <p class="mbr-text mbr-fonts-style display-4">M<strong>obirise W</strong>ebs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content10 cid-stsCfeVG04" id="content10-6d">
+    
+    <div class="container container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md">
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-4">
+                
+<div><div>
+
+
+<!-- Que 5 -->
+      <p>5. Differentiate between append() and extend() methods of list.<br></p>
+<!-- Ans 5 -->
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>append()</h2>
+    <p>Append add one element to a list at a time.<br><br>The multiple values can be added using a list as a parameter but append adds them as a list only.<br><br>Example	Example
+    </p><p>l1=[1,2,3]
+</p><p>l1.append([4,5])
+</p><p>print(l1)
+</p><p>The output will be: [1,2,3,[4,5]]</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>extend()</h2>
+    <p>extend add multiple elements to a list at a time.<br><br>If user adds multiple values in form of list as parameter, it will add separate values.<br><br><br>Example Example
+</p><p>l1=[1,2,3]
+</p><p>l1.append([4,5])
+</p><p>print(l1)
+</p><p>The output will be: [1,2,3,4,5]<br><br></p></div></div></div></div><div class="row">
+</div></h6></div><br><br>
+
+            
+            <div class="col-md-12 col-lg-3">
+                <p class="mbr-text mbr-fonts-style display-4">M<strong>obirise W</strong>ebs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+
+            </div>
+        
+    
+</div></div></section>
+
+<section class="content10 cid-stsu9M9POG" id="content10-68">
+    
+    <div class="container container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md">
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-4">
+                <div>
+                  </div>
+<div>
+<!-- Que 1 -->
+      <p>6. Consider a list:
+</p><p>&nbsp;list1 = [6,7,8,9]
+</p><p>What is the difference between the following
+&nbsp;<span style="font-size: 1.1rem;">operations on list1:</span></p></div><div><p><span style="font-size: 1.1rem;">a) lis t1 * 2</span></p></div><div><p><span style="font-size: 1.1rem;">b) list1 *= 2
+</span></p><p><span style="font-size: 1.1rem;">c) list1 = list1 * 2</span></p></div><div>
+<!-- Ans 1 -->
+        <div class="background"><div class="transbox">
+      <p>a) The * operator treated as a replication operator when the list object is referred to with any numeric value. So here it will replicate the list values. Therefore it returns [6,7,8,9,6,7,8,9]
+</p><p>b) It is shorthand operator and as explain earlier it will also produce the similar result like question a).
+</p><p>c) It also produce the similar result as the statement is just like similar.</p> </div> </div> </div><br><br><div><br>
+
+<!-- Que 2 -->
+      <p>7. The record of a student (Name, Roll No, Marks in
+&nbsp;<span style="font-size: 1.1rem;">five subjects and percentage of marks) is stored in&nbsp;</span><span style="font-size: 1.1rem;">the following list:&nbsp;</span></p></div><div><p><span style="font-size: 1.1rem;">stRecord = ['Raman','A-36',[56,98,99,72,69],&nbsp;</span><span style="font-size: 1.1rem;">78.8]&nbsp;</span></p><p>Write Python statements to retrieve the following
+&nbsp;<span style="font-size: 1.1rem;">information from the list stRecord.</span></p></div>a) Percentage of the student<div><div class="background"><div class="transbox">
+    <p>perc=stRecord[3]
+</p><p>print(perc)</p></div></div></div><br>b) Marks in the fifth subject<br><div><div class="background"><div class="transbox"><p>marks_sub5 = stRecord[2][4]
+</p><p>print(marks_sub5)</p></div></div></div><br>c) Maximum marks of the student<br><div><div class="background"><div class="transbox"><p>marks_max = max(stRecord[2])
+</p><p>print(marks_max)</p></div></div></div><br>d) Roll No. of the student<br><div><div class="background"><div class="transbox"><p>rno = stRecord[1]
+</p><p>print(rno)</p></div></div></div><br>e) Change the name of the student from ‘Raman’ to ‘Raghav’<br><div><div class="background"><div class="transbox"><p>sname = stRecord[0]
+</p><p>print(sname)</p></div></div></div><br><div><br>
+8. Consider the following dictionary stateCapital:
+</div><div>stateCapital = {"Assam":"Guwahati",
+<span style="font-size: 1.1rem;">"Bihar":"Patna","Maharashtra":"Mumbai",&nbsp;</span><span style="font-size: 1.1rem;">"Rajasthan":"Jaipur"}&nbsp;</span></div><div>Find the output of the following statements:</div><div><br></div><div>a) print(stateCapital.get("Bihar"))
+<br><div class="background"><div class="transbox"><p>The output will be – Patna</p></div></div></div><br>b) print(stateCapital.keys())<br><div><div class="background"><div class="transbox"><p>The output will be – dict_keys([‘Assam’, ‘Bihar’, ‘Maharashtra’, ‘Rajasthan’])</p></div></div></div><br>c) print(stateCapital.values())<br><div><div class="background"><div class="transbox"><p>The output will be – dict_values([‘Guwahati’, ‘Patna’, ‘Mumbai’, ‘Jaipur’])</p></div></div></div><br>d) print(stateCapital.items())<br><div><div class="background"><div class="transbox"><p>The output will be – dict_items([(‘Assam’, ‘Guwahati’), (‘Bihar’, ‘Patna’), (‘Maharashtra’, ‘Mumbai’), (‘Rajasthan’, ‘Jaipur’)])</p></div></div></div><br>e) print(len(stateCapital))<br><div><div class="background"><div class="transbox"><p>The output will be – 4</p></div></div></div><br>f) print("Maharashtra" in stateCapital)<br><div><div class="background"><div class="transbox"><p>The output will be – True</p></div></div></div><br>g) print(stateCapital.get("Assam"))<br><div><div class="background"><div class="transbox"><p>The output will be – Patna</p></div></div></div><br>h) del stateCapital["Assam"]
+<div>&nbsp;&nbsp;&nbsp;&nbsp;print(stateCapital)<br><div><div class="background"><div class="transbox"><p>It will delete information related to Assam. and print other keys and values.
+</p><p>{‘Bihar’: ‘Patna’, ‘Maharashtra’: ‘Mumbai’, ‘Rajasthan’: ‘Jaipur’}</p> </div> </div> <br><br></div><div><div class="background">  <br>
+    
+</div></div></div></h6></div><br><br>
+
+            
+            <div class="col-md-12 col-lg-3">
+                <p class="mbr-text mbr-fonts-style display-4">M<strong>obirise W</strong>ebs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+
+                 <p class="mbr-text mbr-fonts-style display-4">Mobirise Webs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+            </div>
+        
+    
+</div></div></section>
+
+<section class="content10 cid-stsGaLjrTI" id="content10-6e">
+    
+    <div class="container container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md">
+                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-4">
+                <div>
+                  <h3>Programming Problems</h3></div><div><h3><br></h3>
+                </div>
+<div><div>
+<!-- Que 1 -->
+      <p> 1. Write a program to find the number of times an element
+&nbsp;<span style="font-size: 1.1rem;">occurs in the list.</span></p></div></div><br><div><div><p><span style="font-size: 1.1rem;">By using loops</span></p>
+<!-- Ans 1 -->
+        <div class="background"><div class="transbox">
+      <p>l = [ ]
+</p><p>n = int(input("Enter the no. of elements in the list:"))
+</p><p>cnt=0
+</p><p>for i in range(0,n):
+</p><p>&nbsp; &nbsp; lval=int(input("Enter the value to add in list:"))
+</p><p>&nbsp; &nbsp; l.append(lval)
+</p><p>search_item=int(input("Enter the value to search:"))
+</p><p>for i in range(0,len(l)):
+</p><p>&nbsp; &nbsp; if l[i]==search_item:
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp; cnt+=1
+</p><p>print(search_item, "Found in the list", cnt, " times")</p></div></div></div></div><br>With eval<br><div><div><div class="background"><div class="transbox"><p>lval = eval(input("Enter the values for the list:"))
+</p><p>search_item=int(input("Enter the value to search:"))
+</p><p>print(search_item, "Found in the list", lval.count(search_item), " times")</p> </div> </div> <br>
+
+<!-- Que 2 -->
+      <p> 2. Write a program to read a list of n integers (positive as well as negative). Create two new lists, one having all positive numbers and the other having all negative numbers from the given list. Print all three lists.</p>
+<!-- Ans 2 -->
+        <div class="background"><div class="transbox">
+    <p>lval = eval(input("Enter the values for the list:"))
+</p><p>pl =[ ]
+</p><p>nl =[ ]
+</p><p>for i in range(len(lval)):
+</p><p>&nbsp; &nbsp; if lval[i]&gt;0:
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp; pl.append(lval[i])
+</p><p>&nbsp; &nbsp; elif lval[i]&lt;0:
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp; nl.append(lval[i])
+</p><p>print("Original List:", lval)
+</p><p>print("Poitive List:", pl)
+</p><p>print("Negative List:", nl)</p> </div> </div> <br>
+
+<!-- Que 3 -->
+      <p> 3. Write a program to find the largest and the second-largest elements in a given list of elements.</p>
+<!-- Ans 3 -->
+        <div class="background"><div class="transbox">
+    <p>L = eval(input("Enter the values for the list:"))<br>L.sort()<br>
+    print("largest element",l[-1])<br>
+    print("second largest element",l[-2])
+    </p></div></div></div></div><div><div> <br>
+
+<!-- Que 4 -->
+      <p>4. Write a program to read a list of n integers and find their
+&nbsp;<span style="font-size: 1.1rem;">median.&nbsp;</span></p><p><strong>Note</strong>: The median value of a list of values is the middle one
+&nbsp;<span style="font-size: 1.1rem;">when they are arranged in order. If there are two middle values&nbsp;</span><span style="font-size: 1.1rem;">then take their average.&nbsp;</span></p><p><strong>Hint</strong>: Use an inbuilt function to sort the list.</p>
+<!-- Ans 4 -->
+        <div class="background"><div class="transbox">
+    <p>import statistics as s
+</p><p>lval = eval(input("Enter the values for the list:"))
+</p><p>m = s.median(lval)
+</p><p>print("The median value is:",m)
+</p><p>l = eval(input("Enter the values:"))
+</p><p>l.sort( )
+</p><p>len1 =len(l)
+</p><p>mv = len1//2
+</p><p>if len1%2 ==0:
+</p><p>&nbsp; &nbsp; m1, m2 = mv-1, mv
+</p><p>&nbsp; &nbsp; md = (l[m1]+l[m2])/2
+</p><p>else:
+</p><p>&nbsp; &nbsp; md=l[mv]
+</p><p>print("The median value is:",md)</p></div></div></div></div><br><div><div><p><br></p></div></div>
+
+<!-- Que 6 -->
+      <p>5. Write a program to read a list of elements. Modify this list so that it does not contain any duplicate elements i.e. all elements occurring multiple times in the list should appear only once.</p><div class="background"><div class="transbox"><p>l = eval(input("Enter the values:"))
+</p><p>temp=[ ]
+</p><p>for i in l:
+</p><p>&nbsp; &nbsp; if i not in temp:
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp; temp.append(i)
+</p><p>l=list(temp)
+</p><p>print("List after removing duplicate elements:",l)</p> </div> </div> <br>
+
+<!-- Que 7 -->
+      <p>6. Write a program to create a list of elements. Input an element from the user that has to be inserted in the list. Also input the position at which it is to be inserted.</p><div class="background"><div class="transbox"><p>l = [1,2,3]
+</p><p>list_value=int(input("Enter the value to insert:"))
+</p><p>p=int(input("Enter the position"))
+</p><p>idx = p - 1
+</p><p>l.insert(idx,list_value)
+</p><p>print(l)</p> </div> </div> <br>
+    
+<!-- Que 8 -->
+      <p>7. Write a program to read elements of a list and do the
+&nbsp;<span style="font-size: 1.1rem;">following.&nbsp;</span></p><p>a) The program should ask for the position of the
+&nbsp;<span style="font-size: 1.1rem;">element to be deleted from the list and delete the&nbsp;&nbsp;</span><span style="font-size: 1.1rem;">element at the desired position in the list.</span></p>
+<!-- Ans 8 -->
+        <div class="background"><div class="transbox">
+    <p><span style="font-size: 1.1rem;">l = [1,2,3]&nbsp;</span><br></p><p>p=int(input("Enter the position to delete:"))
+</p><p>l.pop(p)
+</p><p>print(l)</p></div></div><br>b) The program should ask for the value of the element to be deleted from the list and delete this value from the list.<br><div class="background"><div class="transbox"><p>l = [1,2,3]
+</p><p>value=int(input("Enter the position to delete:"))
+</p><p>l.remove(value)
+</p><p>print(l)</p> </div> </div> <br>
+
+<!-- Que 9 -->
+      <p>8. Write a Python program to find the highest 2 values in a dictionary.</p>
+<!-- Ans 9 -->
+        <div class="background"><div class="transbox">
+    <p>d = {11:22,33:46,45:76}
+</p><p>s = sorted(d.values( ))
+</p><p>print(s[-1],s[-2])</p> </div> </div> <br>
+
+<!-- Que 10 -->
+      <p>9. Write a Python program to create a dictionary from a string ‘w3resource’ such that each individual character mates a key and its index value for fist occurrence males the corresponding value in the dictionary.</p><p>Expected output : {‘3’: 1, ‘s’: 4, ‘r’: 2, ‘u’: 6, ‘w’: 0, ‘c’: 8, ‘e’: 3, ‘o’: 5}</p>
+<!-- Ans 10 -->
+        <div class="background"><div class="transbox">
+    <p>strr = 'w3resource'<br>
+l = list(dict.fromkeys(strr))<br>
+l2 = list()<br>
+for i in l:<br>
+    index = l.index(i)<br>
+    l2.append((i,index))<br>
+d ={}<br>
+d.update(l2)<br>
+print(d)
+    </p> </div> </div> <br>
+
+<!-- Que 11 -->
+      <p>10. Write a program to input your friend’s, names and their phone numbers and store them in the dictionary as the key-value pair. Perform the following operations on the dictionary:</p>
+       <div class="background"><div class="transbox">
+    <p>n = int(input('Enter the number of friends '))<br>
+l = list()<br>
+print()<br>
+for i in range(n):<br>
+    name = input('Enter the name ')<br>
+    num = int(input('Enter the phone number '))<br>
+    l.append((name , num))<br>
+    print()<br>
+d={}</p></div></div><br>a) Display the Name and Phone number for all your friends<br><div class="background"><div class="transbox"><p>d = dict(l)
+</p><p>print('Name  :   Phone number')
+</p><p>for i in d:
+</p><p>&nbsp; &nbsp; print(i , ':' , d[i])
+</p></div></div><br>b) Add a new key-value pair in this dictionary and
+ display the modified dictionary<div><div class="background"><div class="transbox"><div class="background"><div class="transbox"><p>n =  int(input('Enter how many more freinds you want to enter'))
+</p><p>for a in range(n):
+</p><p>&nbsp; &nbsp; nn = input('Enter new  name to add')
+</p><p>&nbsp; &nbsp; numm = int(input('Enter the phone number '))
+</p><p>l.append((nn , numm))
+</p><p>d= d.update(l)
+</p><p>print(d)
+</p><p>d = dict(l)
+</p><p>print('Name  :   Phone number')
+</p><p>for i in d:
+</p><p>&nbsp; &nbsp; print(i , ':' , d[i])</p></div></div></div></div></div><br>c) Delete a particular friend from the dictionary<br><div><div class="background"><div class="transbox"><div><div class="background"><div class="transbox"><p>nn =input('Enter name to remove ')
+</p><p>del d[nn]
+</p><p>print(d)
+</p><p>print(nn,'has been removed')</p></div></div></div></div></div></div><br>d) Modify the phone number of an existing friend<br><div><div class="background"><div class="transbox"><p>nam = input('Enter the name to change number ')
+</p><p>num = int(input('Enter phone number'))
+</p><p>d[nam] = num
+</p><p>print('Phone number of,'nam,'is modified')</p></div></div></div><br>
+e) Check if a friend is present in the dictionary or not<br><div><div class="background"><div class="transbox"><div class="background"><div class="transbox"><p>nnm = input('Enter the name to search ')
+</p><p>if nnm in d:
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp; print(nnm ,'is present')
+</p><p>else:
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp; print(nnm ,'not prsent')</p></div></div></div></div></div><br>f) Display the dictionary in sorted order of names<br><div><div class="background"><div class="transbox"><div class="background"><div class="transbox"><p>print(dict(sorted(d.items())))</p></div></div></div></div></div></h6></div><br><br>
+
+            
+            <div class="col-md-12 col-lg-3">
+                <p class="mbr-text mbr-fonts-style display-4">M<strong>obirise W</strong>ebs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+
+                 <p class="mbr-text mbr-fonts-style display-4">Mobirise Webs<br>gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggreeerererefgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+            </div>
+        
+    
+</div></div></section>
+
+<section class="footer3 cid-stsu9MUpf0" once="footers" id="footer3-6a">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white" href="#" target="_blank">About us</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white" href="#" target="_blank">Services</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white" href="#" target="_blank">Contact Us</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white" href="#" target="_blank">Careers</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white" href="#" target="_blank">Work</a>
+                    </li></ul>
+            </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2025 Glittery. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<g fill="#d3dce6" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)" class="cid-stsu9MCzQs" id="form2-69" data-rv-view="404">
+<path vector-effect="none" fill-rule="evenodd" d="M384,2493 L972,2493 C974.209,2493 976,2494.79 976,2497 L976,2803 C976,2805.21 974.209,2807 972,2807 L384,2807 C381.791,2807 380,2805.21 380,2803 L380,2497 C380,2494.79 381.791,2493 384,2493 M385,2495 L971,2495 C972.657,2495 974,2496.34 974,2498 L974,2802 C974,2803.66 972.657,2805 971,2805 L385,2805 C383.343,2805 382,2803.66 382,2802 L382,2498 C382,2496.34 383.343,2495 385,2495 "></path>
+</g><path vector-effect="none" fill-rule="evenodd" d="M384,2493 L972,2493 C974.209,2493 976,2494.79 976,2497 L976,2803 C976,2805.21 974.209,2807 972,2807 L384,2807 C381.791,2807 380,2805.21 380,2803 L380,2497 C380,2494.79 381.791,2493 384,2493 M385,2495 L971,2495 C972.657,2495 974,2496.34 974,2498 L974,2802 C974,2803.66 972.657,2805 971,2805 L385,2805 C383.343,2805 382,2803.66 382,2802 L382,2498 C382,2496.34 383.343,2495 385,2495 " class="cid-stsu9MCzQs" id="form2-69" data-rv-view="404"></path><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/y" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Designed with <a href="https://mobirise.site/a" style="color:#aaa;">Mobirise</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden">
+  </body>
+</html>
